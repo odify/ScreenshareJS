@@ -6,8 +6,6 @@
  *  tree.
  */
 
-
-
 'use strict';
 
 if (adapter.browserDetails.browser == 'firefox') {

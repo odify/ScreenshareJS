@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScreenshareJS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="headline">ScreenshareJS</h1>
+    </header>
+    <main>
+        <section class="clock">
+            <div id="ttt"></div>
+            <div id="test">loading</div>
+        </section>
+        <section class="webviewer">
+            <video id="gum-local" autoplay playsinline muted></video>
+            <div class="board"><button id="startButton" disabled> Start sharing your screen now </button>
+                <button id="btn-x">MUTE</button>
+                <button id="btn-y">REC.</button>
+                <button id="btn-z">STOP</button>
+                <button id="btn-z">PLAY</button>
+                <button id="btn-z">LOOP</button>
+                <button id="btn-xyz" type="reset">EXIT</button>
+            </div>
+            <div id="errorMsg"></div>
+            </div>
+            <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
